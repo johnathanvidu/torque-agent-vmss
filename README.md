@@ -9,7 +9,7 @@ this guide describes how to install torque agent on a new VMSS, but you can twea
     3. select vCenter, then Docker and give it a name (**keep the name**, we'll use it later on)
     4. click "skip for now"
 2. torque long token 
-![](/img/token.gif)
+    ![](/img/token.gif)
 
 #### VMSS
 go to [portal.azure.com](https://portal.azure.com) and search for VMSS.
