@@ -2,6 +2,11 @@
 TOKEN=<Torque API Token>
 AGENT=vmss-agent
 
+# configure proxy settings - uncomment to override machine-wide settings
+#export HTTP_PROXY=http-proxy.com
+#export HTTPS_PROXY=https-proxy.com
+#export NO_PROXY=my-awesome-company.com
+
 # install docker
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg -y
